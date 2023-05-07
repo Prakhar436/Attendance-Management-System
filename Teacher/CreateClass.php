@@ -101,9 +101,7 @@ if (isset($_POST['submit'])) {
     <li class="nav-item">
       <a class="nav-link text-light" href="../features.html">Features</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link text-light" href="../about.html">About Us</a>
-    </li>
+   
     <li>
       <a class="nav-link btn text-light" id="signout" onclick="signOut()">Sign out</a>
     </li>
@@ -188,7 +186,7 @@ if (isset($_POST['submit'])) {
         <div
           class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
           <h1 class="h2">Create a New Class</h1>
-          <p class="p">Note:Don't use special symbols for class name,only _ allowed</p>
+          <p class="p">Note: Don't use special symbols for class name, only _ allowed</p>
         </div>
         <h4 class="mb-3">Enter Class Details</h4>
         <form action="" method="post" name="createClassForm" onsubmit="return validateForm()">

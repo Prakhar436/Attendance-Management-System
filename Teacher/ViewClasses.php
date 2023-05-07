@@ -67,9 +67,7 @@ if (isset($_POST['submit'])) {
       <li class="nav-item">
         <a class="nav-link text-light" href="../features.html">Features</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="../about.html">About Us</a>
-      </li>
+    
       <li>
         <a class="nav-link btn text-light" id="signout" onclick="signOut()">Sign out</a>
       </li>

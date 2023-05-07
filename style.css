@@ -150,6 +150,13 @@ form.sign-in-form {
 .btn:hover {
   background-color: #4d84e2;
 }
+
+.TeacherBtn{
+  background-color: #9a6fdf;
+}
+.TeacherBtn:hover{
+  background-color: #9e3cd3;
+}
 .panels-container {
   position: absolute;
   height: 100%;
@@ -168,7 +175,8 @@ form.sign-in-form {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+  /* background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%); */
+  background-image: linear-gradient(to right, #9e3cd3,#5995fd);
   transition: 1s ease-in-out;
   border-radius: 50%;
   z-index: 6;
@@ -406,7 +414,7 @@ form.sign-in-form {
 .animate {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+  background-image: linear-gradient(to right, #a6b2ca,#85a6df,#3879e8);
 
   color: #fff;
   text-align: center;

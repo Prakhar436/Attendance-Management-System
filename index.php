@@ -100,7 +100,7 @@ if (isset($_POST['username'])) {
             <i class="fas fa-lock"></i>
             <input name="pass" type="password" required placeholder="Password" />
           </div>
-          <input name="submit" type="submit" class="btn" value="Login As Teacher" />
+          <input name="submit" type="submit" class="btn TeacherBtn" value="Login As Teacher" />
 
         </form>
       </div>
