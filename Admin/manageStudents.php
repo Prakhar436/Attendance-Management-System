@@ -105,9 +105,6 @@ if (isset($_POST['submitU'])) {
     <li class="nav-item">
       <a class="nav-link text-light" href="../features.html">Features</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link text-light" href="../about.html">About Us</a>
-    </li>
     <li>
       <a class="nav-link btn text-light" id="signout" onclick="signOut()">Sign out</a>
     </li>
@@ -165,7 +162,7 @@ if (isset($_POST['submitU'])) {
                 Add Students
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <form method="POST">
